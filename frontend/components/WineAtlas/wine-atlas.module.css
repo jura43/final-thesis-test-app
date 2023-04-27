@@ -1,0 +1,66 @@
+@media (min-width: 992px) {
+  #atlas {
+    height: 93vh;
+  }
+}
+
+#atlas {
+  width: 100%;
+  min-width: 350px;
+  pointer-events: none;
+}
+
+.buttonsOverlay {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  align-items: center;
+}
+
+.popover {
+  padding: 10px;
+}
+
+.popoverList {
+  padding-left: 12px;
+}
+
+.buttonsOverlay button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.overlay {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  position: relative;
+}
+
+#overlay img {
+  max-height: 1200px;
+  width: 100%;
+}
+
+#wineata {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+  max-height: 100%;
+}
+
+.background {
+  background-color: #575757;
+  height: 100%;
+  overflow: auto;
+}
+
+.closeButton {
+  position: absolute;
+  right: 1%;
+  z-index: 5;
+}

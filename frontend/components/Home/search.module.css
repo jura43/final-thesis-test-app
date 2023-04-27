@@ -1,0 +1,56 @@
+#search {
+  background-color: #e7f9fd;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#wrap {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.image {
+  object-fit: cover;
+}
+
+#text {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#time {
+  padding: 0 15px;
+  display: flex;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 3px 15px;
+  border-radius: 30px;
+  margin-bottom: 9px;
+  margin-left: auto;
+  order: 2;
+  white-space: nowrap;
+  height: 31px;
+}
+
+#time p {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+#stopwatch {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}

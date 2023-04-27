@@ -1,0 +1,37 @@
+.font {
+  font-size: larger;
+  margin-top: 20px;
+}
+
+.font > li {
+  margin-top: 10px;
+}
+
+#info {
+  width: 100%;
+}
+
+#infoText {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+#infoPictures {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 9%;
+}
+
+#infoPicture * {
+  margin: auto;
+}
+
+.county {
+  text-transform: uppercase;
+}
+
+.wineries {
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: underline;
+}

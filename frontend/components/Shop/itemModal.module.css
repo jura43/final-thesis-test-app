@@ -1,0 +1,20 @@
+.content {
+  margin-left: 25px;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.category {
+  font-weight: bold;
+  display: inline;
+}
+
+.inline {
+  display: inline;
+}
+
+.info {
+  margin-top: 13px;
+}

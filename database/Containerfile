@@ -1,0 +1,9 @@
+FROM mariadb:latest
+
+ENV MARIADB_ROOT_PASSWORD=jura
+ENV MARIADB_DATABASE=wineries
+WORKDIR /database
+
+COPY ./database_data.sql /docker-entrypoint-initdb.d/database_data.sql
+
+EXPOSE 3306

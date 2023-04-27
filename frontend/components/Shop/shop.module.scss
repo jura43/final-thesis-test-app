@@ -1,0 +1,38 @@
+@import "styles/variables";
+
+#items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#filter {
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  background-color: $bgGray;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  border-radius: 25px;
+  background-color: papayawhip;
+  overflow: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(48, 48, 48, 0.836);
+}

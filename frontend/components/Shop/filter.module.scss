@@ -1,0 +1,28 @@
+@import "styles/variables.scss";
+
+#filter {
+  background-color: $lightBrown;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+#regions {
+  margin-top: 20px;
+}
+
+#price {
+  margin-top: 25px;
+}
+
+.filterTitle {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.price {
+  padding-right: 10px;
+}
+

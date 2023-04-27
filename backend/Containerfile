@@ -1,0 +1,7 @@
+FROM python:3.11.3-alpine
+RUN mkdir /backend
+WORKDIR /backend
+ADD requirements.txt /backend
+ADD main.py /backend
+RUN pip3 install -r requirements.txt
+CMD ["gunicorn", "-w 4", "-b", "0.0.0.0:5000", "main:app"]
