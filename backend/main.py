@@ -22,6 +22,10 @@ class GetWines(Resource):
                 wines_list.append({'ItemID': w[0], 'name': w[1], 'winery':w[2], 'quantity': "No information"})
         return  wines_list[0:1000]
     
+class Test(Resource):
+    def get(self):
+        return "This is test page"
+    
 class WinesInWinery(db.Model):
     __tablename__ = 'WinesInWinery'
     ItemID = db.Column(db.Integer, primary_key=True)
@@ -43,6 +47,7 @@ class Wines(db.Model):
     type = db.Column(db.Integer)
 
 api.add_resource(GetWines, '/')
+api.add_resource(Test, '/test')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
